@@ -29,8 +29,11 @@ def get_binance_futures_klines(symbol='BTCUSDT', interval='5m', limit=100):
 
     return df
 
+# ADAUSDT, XRPUSDT, MEMEUSDT, DOGEUSDT, 1000PEPEUSDT
 symbol='ADAUSDT' 
+#15m, 1h, 4h, 1d
 interval='15m' 
+#25, 50, 100
 limit=50
 
 # Fetch the data
